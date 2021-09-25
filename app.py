@@ -3,7 +3,7 @@ from credentials import super_secret
 
 
 app = Flask(__name__)
-
+# site.com
 @app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')

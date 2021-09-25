@@ -2,7 +2,7 @@
     "builds": [
         {
             "src": "app.py",
-            "use": "@potatohd/vercel-package-installer1",
+            "use": "@potatohd/py-vercel",
             "config": {
                 "maxLambdaSize": "15mb",
                 "runtime": "python3.8",
